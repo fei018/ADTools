@@ -176,8 +176,7 @@ namespace ActiveDirectoryTools.Controllers
             var query = _adService.CreateUser(user, password);
             if (query.Success)
             {
-                ViewData["ADUserCreate"] = "Domain User Create Success.";
-                return View();
+                return View("ADUserIndex");
             }
             else
             {
@@ -200,9 +199,13 @@ namespace ActiveDirectoryTools.Controllers
             var query = _adService.AddUserToGroup(userSamAccount, AddGroup);
             if (query.Success)
             {
-                return ADUserAddGroup(query.Value);
+                return RedirectToAction("ADUserIndex");
             }
-            return View();
+            else
+            {
+                ViewData["ADUserAddGroup"] = query.Error;
+                return ADUserAddGroup(userSamAccount);
+            }
         }
         #endregion
 

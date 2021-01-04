@@ -34,12 +34,14 @@
                 <button type="submit" class="layui-btn" lay-submit>Submit</button>
             </div>
         </div>
-        <input type="hidden" name="userSamAccount" value="@Model?.First()?.UserSamAccount"/>
+        <input type="hidden" name="userSamAccount" value="@Model?.First()?.UserSamAccount" />
         @Html.AntiForgeryToken()
     </form>
 </div>
 
-<script type="text/javascript">
-    SidebarItemed('/admanage/aduserindex');
-</script>
+@section Scripts{
+    <script type="text/javascript">
+        SidebarItemed('/admanage/aduserindex');
+    </script>
+}
 

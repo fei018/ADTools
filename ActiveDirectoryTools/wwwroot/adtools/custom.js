@@ -38,6 +38,9 @@ function AjaxMonitor() {
     });
 }
 
+function LayerLoad() {
+    index = layer.load(2, { shade: 0.2 });
+}
 
 // side bar item click monitor
 function SidebarItemedMonitor() {

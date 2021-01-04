@@ -44,6 +44,7 @@
                         <div>
                             <!-- ADUser Action -->
                             <a href="javascript:;" onclick="ADUserResetPassword('@_user.SamAccountName')">Password</a>
+                            <a href="/admanage/aduseraddgroup?usersamaccount=@_user.SamAccountName" onclick="LayerLoad()">Groups</a>
                             <a href="javascript:;" onclick="ADUserDelete('@_user.SamAccountName')" style="color:red">Delete</a>
                         </div>
                     </td>
