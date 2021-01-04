@@ -1,0 +1,12 @@
+C:\CodeRepos\HH\ServiceCenter\bin\Release\netcoreapp3.1\ServiceCenter.deps.json
+C:\CodeRepos\HH\ServiceCenter\bin\Release\netcoreapp3.1\ServiceCenter.dll
+C:\CodeRepos\HH\ServiceCenter\bin\Release\netcoreapp3.1\ServiceCenter.pdb
+C:\CodeRepos\HH\ServiceCenter\bin\Release\netcoreapp3.1\ADServiceLibCore.dll
+C:\CodeRepos\HH\ServiceCenter\bin\Release\netcoreapp3.1\ADServiceLibCore.pdb
+C:\CodeRepos\HH\ServiceCenter\obj\Release\netcoreapp3.1\ServiceCenter.csprojAssemblyReference.cache
+C:\CodeRepos\HH\ServiceCenter\obj\Release\netcoreapp3.1\ServiceCenter.AssemblyInfoInputs.cache
+C:\CodeRepos\HH\ServiceCenter\obj\Release\netcoreapp3.1\ServiceCenter.AssemblyInfo.cs
+C:\CodeRepos\HH\ServiceCenter\obj\Release\netcoreapp3.1\ServiceCenter.csproj.CoreCompileInputs.cache
+C:\CodeRepos\HH\ServiceCenter\obj\Release\netcoreapp3.1\ServiceCenter.csproj.CopyComplete
+C:\CodeRepos\HH\ServiceCenter\obj\Release\netcoreapp3.1\ServiceCenter.dll
+C:\CodeRepos\HH\ServiceCenter\obj\Release\netcoreapp3.1\ServiceCenter.pdb

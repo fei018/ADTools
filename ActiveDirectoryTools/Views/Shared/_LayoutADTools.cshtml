@@ -1,0 +1,138 @@
+﻿@inject IADToolsService _adToolsService
+@{
+    var _adSerivce = _adToolsService.ADService;
+    var query = await _adSerivce.GetDomainInfoInDatabase();
+    string _domainInfo = null;
+    if (query.Success)
+    {
+        _domainInfo = query.Value.DomainName;
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ADTools</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link href="~/layui/css/layui.css" rel="stylesheet" media="all" />
+    <link href="~/adtools/datatables/dt-1.10.23/datatables.min.css" rel="stylesheet" />
+    <link href="~/adtools/custom.css" rel="stylesheet" />
+
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+      <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="layui-layout-body">
+    <div class="layui-layout layui-layout-admin">
+        <div class="layui-header" style="background-color: #393D49;line-height:50px;">
+            <div class="layui-logo" style="color:white;">ADTools Management</div>
+            <!-- 头部区域（可配合layui已有的水平导航） -->
+            <ul class="layui-nav layui-layout-left">
+                <li class="layui-nav-item"><a href="javascript:;">|||</a></li>
+                @*<li class="layui-nav-item">
+                        <a href="javascript:;">其它系统</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="">邮件管理</a></dd>
+                            <dd><a href="">消息管理</a></dd>
+                            <dd><a href="">授权管理</a></dd>
+                        </dl>
+                    </li>*@
+            </ul>
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                    <a href="javascript:;">
+                        <img src="~/adtools/images/bg.png" class="layui-nav-img">
+                        @(User?.Identity?.Name)
+                    </a>
+                    <dl class="layui-nav-child">
+                        @*<dd><a href="">Profile</a></dd>*@
+                        <dd><a href="/login/logout">Logout</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+
+        <div class="layui-side layui-bg-black">
+            <div class="layui-side-scroll">
+                <!-- 左侧导航区域 -->
+                <ul class="layui-nav layui-nav-tree layui-bg-cyan">
+                    <li class="layui-nav-item">
+                        <a href="/admanage/index">
+                            <i class="layui-icon">&#xe68e;</i> @_domainInfo
+                        </a>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="javascript:;"><i class="layui-icon">&#xe67f;</i> Active Directory</a>
+                        <dl class="layui-nav-child">
+                            <dd>
+                                <a class="ad-nav-link" href="/admanage/aduserindex">
+                                    <i class="layui-icon">&#xe66f;</i> AD User
+                                </a>
+                            </dd>
+                            <dd>
+                                <a class="ad-nav-link" href="/admanage/adgroupindex">
+                                    <i class="layui-icon">&#xe770;</i> AD Group
+                                </a>
+                            </dd>
+                            <dd>
+                                <a class="ad-nav-link" href="/admanage/adcomputerindex">
+                                    <i class="layui-icon">&#xe638;</i> AD Computer
+                                </a>
+                            </dd>
+                        </dl>
+                    </li>
+                    @*<li class="layui-nav-item">
+                            <a href="javascript:;">Login Account</a>
+                            <dl class="layui-nav-child">
+                                <dd><a class="ad-nav-link" href="/account/List">Account List</a></dd>
+                                <dd><a class="ad-nav-link" href="javascript:;">?</a></dd>
+                            </dl>
+                        </li>*@
+                </ul>
+            </div>
+        </div>
+
+        <div class="layui-body">
+            <!-- 内容主体区域 -->
+            <div style="padding: 15px;">
+                @RenderBody()
+            </div>
+        </div>
+
+        <!--<div class="layui-footer">-->
+        <!-- 底部固定区域 -->
+        <!--© layui.com - 底部固定区域
+        </div>-->
+        <!--移动导航-->
+        <div class="site-tree-mobile layui-hide">
+            <i class="layui-icon">&#xe66b;</i>
+        </div>
+        <div class="site-mobile-shade"></div>
+
+        <!-- ajax loading-->
+        <div class="ajax_loading" style="display:none">
+            <div class="loading_show">
+                <img src="~/adtools/images/loading.gif" />
+                <p class="loading_context">Loading。。。</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/layui/layui.all.js" charset="utf-8"></script>
+    <script src="~/adtools/jquery.min.js"></script>
+    <script src="~/adtools/datatables/dt-1.10.23/datatables.min.js"></script>
+    <script src="~/adtools/custom.js"></script>
+
+    <!-- Render Scripts-->
+    @RenderSection("Scripts", false)
+</body>
+</html>

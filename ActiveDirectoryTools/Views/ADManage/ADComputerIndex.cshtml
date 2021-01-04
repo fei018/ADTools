@@ -1,0 +1,30 @@
+﻿<div class="layui-row">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>AD Computer</legend>
+    </fieldset>
+    <div class="layui-form-item">
+        <div class="layui-input-inline">
+            <input type="text" class="layui-input" id="computerName" name="computerName" placeholder="computer name" />
+        </div>
+        <div class="layui-input-inline" style="width:100px;">
+            <button class="layui-btn layui-btn-primary" onclick="ADComputerFindOne()"><i class="layui-icon layui-icon-search"></i></button>
+        </div>
+        <div class="layui-input-inline">
+            <button type="button" class="layui-btn layui-btn-primary" onclick="ADComputerFindAll()">All Computer</button>
+        </div>
+    </div>
+</div>
+<hr />
+<div class="layui-row" id="divTools"></div>
+
+@Html.AntiForgeryToken()
+
+@section Scripts{
+    <script type="text/javascript">
+        $('#computerName').on('keypress', function (e) {
+            if (e.which == 13) {
+                ADComputerFindOne();
+            }
+        })
+    </script>
+ }

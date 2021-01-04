@@ -1,0 +1,383 @@
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\appsettings.json
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.exe
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.deps.json
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.runtimeconfig.json
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.runtimeconfig.dev.json
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.pdb
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.Views.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.Views.pdb
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Oracle.ManagedDataAccess.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_green.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SqlSugar.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\DmProvider.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Kdbndp.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win8-arm\native\e_sqlite3.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.csprojAssemblyReference.cache
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.AssemblyInfoInputs.cache
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.AssemblyInfo.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.RazorAssemblyInfo.cache
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.RazorAssemblyInfo.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\staticwebassets\ActiveDirectoryTools.StaticWebAssets.Manifest.cache
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\staticwebassets\ActiveDirectoryTools.StaticWebAssets.xml
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.TagHelpers.input.cache
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.TagHelpers.output.cache
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.RazorCoreGenerate.cache
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.RazorTargetAssemblyInfo.cache
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.RazorTargetAssemblyInfo.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.Views.pdb
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.csproj.CopyComplete
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.pdb
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.genruntimeconfig.cache
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.DirectoryServices.AccountManagement.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.DirectoryServices.Protocols.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.IO.FileSystem.AccessControl.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.IO.FileSystem.AccessControl.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ADServiceLibCore.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ServiceCenter.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ADServiceLibCore.pdb
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ServiceCenter.pdb
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.exe
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.deps.json
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.runtimeconfig.json
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.runtimeconfig.dev.json
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.pdb
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.Views.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ActiveDirectoryTools.Views.pdb
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Oracle.ManagedDataAccess.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_green.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SqlSugar.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\DmProvider.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Kdbndp.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.DirectoryServices.AccountManagement.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.DirectoryServices.Protocols.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.IO.FileSystem.AccessControl.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win8-arm\native\e_sqlite3.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.IO.FileSystem.AccessControl.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ADServiceLibCore.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ServiceCenter.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ServiceCenter.pdb
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ADServiceLibCore.pdb
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.csprojAssemblyReference.cache
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.AssemblyInfoInputs.cache
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.AssemblyInfo.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.csproj.CoreCompileInputs.cache
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.MvcApplicationPartsAssemblyInfo.cache
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.RazorAssemblyInfo.cache
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.RazorAssemblyInfo.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\staticwebassets\ActiveDirectoryTools.StaticWebAssets.Manifest.cache
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\staticwebassets\ActiveDirectoryTools.StaticWebAssets.xml
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\scopedcss\bundle\ActiveDirectoryTools.styles.css
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.TagHelpers.input.cache
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.TagHelpers.output.cache
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.RazorCoreGenerate.cache
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.RazorTargetAssemblyInfo.cache
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.RazorTargetAssemblyInfo.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.Views.pdb
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.csproj.CopyComplete
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.pdb
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.genruntimeconfig.cache
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutADTools.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutADTools.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.csproj.CoreCompileInputs.cache
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\ActiveDirectoryTools.MvcApplicationPartsAssemblyInfo.cache
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutADTools.bak.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADGroupIndex.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADUserIndex.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADGroupFindAll.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADGroupFindOne.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADUserFindAll.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADUserFindOne.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\AccessDenied.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADGroupFindAll.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADGroupFindOne.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADGroupIndex.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADUserFindAll.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADUserFindOne.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADUserIndex.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutADTools.bak1.cshtml.g.cs
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\appsettings - 复制.Development.json
+C:\CodeRepos\HH\ActiveDirectoryTools\bin\Debug\netcoreapp3.1\appsettings - 复制.json
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADComputerFindAll.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADComputerFindOne.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADComputerIndex.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AccessDenied.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\Index.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADUserCreate.cshtml.g.cs
+C:\Fei Data\CodeRepos\HH\ActiveDirectoryTools\obj\Debug\netcoreapp3.1\Razor\Views\ADManage\ADUserAddGroup.cshtml.g.cs

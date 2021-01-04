@@ -1,0 +1,45 @@
+﻿@model IADResult<List<ADGroup>>
+@{
+    Layout = null;
+    
+}
+
+<div>
+    @if (Model.Success)
+    {
+        <table id="table1" class="display cell-border compact dt-body-center" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>SamAccount</th>
+                    <th>Description</th>
+                    <th>DistinguishedName</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var g in Model.Value)
+                {
+                <tr>
+                    <td>@g.Name</td>
+                    <td>@g.SamAccountName</td>
+                    <td>@g.Description</td>
+                    <td>@g.DistinguishedName</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>@Model.Error</p>
+    }
+</div>
+
+<script type="text/javascript">
+    $('#table1').DataTable({
+        scrollY: '60vh',
+        scrollCollapse: true,
+        scrollX: true,
+        paging: false
+    });
+</script>

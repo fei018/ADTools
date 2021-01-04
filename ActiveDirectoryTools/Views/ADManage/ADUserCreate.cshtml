@@ -1,0 +1,89 @@
+﻿@model ADUser
+@{
+    
+}
+
+<div class="layui-row">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>Create Domain User</legend>
+    </fieldset>
+    @if (ViewData["ADUserCreate"] != null)
+    {
+        <div>
+            <p style="color:red">@ViewData["ADUserCreate"]</p>
+        </div>
+    }
+    <form class="layui-form" action="/admanage/adusercreate" method="post" onsubmit="return SubmitForm();">
+        <div class="layui-form-item">
+            <label class="layui-form-label">FirstName</label>
+            <div class="layui-input-inline">
+                <input type="text" asp-for="GivenName" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">LastName</label>
+            <div class="layui-input-inline">
+                <input type="text" asp-for="Surname" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">DisplayName</label>
+            <div class="layui-input-inline">
+                <input type="text" asp-for="DisplayName" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">FullName</label>
+            <div class="layui-input-inline">
+                <input type="text" asp-for="Name" lay-verify="required" lay-reqText="Full Name" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">Description</label>
+            <div class="layui-input-inline">
+                <input type="text" asp-for="Description" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">LogonName</label>
+            <div class="layui-input-inline">
+                <input type="text" asp-for="SamAccountName" lay-verify="required" lay-reqText="Logon Name" class="layui-input">
+            </div>
+        </div>
+        <hr />
+        <div class="layui-form-item">
+            <label class="layui-form-label">Password</label>
+            <div class="layui-input-inline">
+                <input type="password" name="password" lay-verify="required" lay-reqText="password" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">Confirm Password</label>
+            <div class="layui-input-inline">
+                <input type="password" name="confirmPassword" lay-verify="required" lay-reqText="confirm password" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button type="submit" class="layui-btn" lay-submit>Submit</button>
+            </div>
+        </div>
+        @Html.AntiForgeryToken()
+    </form>
+</div>
+
+@section Scripts{
+    <script type="text/javascript">
+        function SubmitForm() {
+            var pass = $('input[name=password]').val();
+            var confirmPass = $('input[name=confirmPassword]').val();
+            if (pass != confirmPass) {
+                layer.msg('Confirm Password different.');
+                return false;
+            }
+            return true;
+        }
+
+        SidebarItemed('/admanage/aduserindex');
+    </script>
+}

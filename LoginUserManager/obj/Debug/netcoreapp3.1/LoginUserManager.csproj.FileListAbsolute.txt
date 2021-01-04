@@ -1,0 +1,18 @@
+C:\Fei Data\CodeRepos\HH\LoginUserManager\bin\Debug\netcoreapp3.1\LoginUserManager.deps.json
+C:\Fei Data\CodeRepos\HH\LoginUserManager\bin\Debug\netcoreapp3.1\LoginUserManager.dll
+C:\Fei Data\CodeRepos\HH\LoginUserManager\bin\Debug\netcoreapp3.1\LoginUserManager.pdb
+C:\Fei Data\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.AssemblyInfoInputs.cache
+C:\Fei Data\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.AssemblyInfo.cs
+C:\Fei Data\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.csproj.CoreCompileInputs.cache
+C:\Fei Data\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.dll
+C:\Fei Data\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.pdb
+C:\CodeRepos\HH\LoginUserManager\bin\Debug\netcoreapp3.1\LoginUserManager.deps.json
+C:\CodeRepos\HH\LoginUserManager\bin\Debug\netcoreapp3.1\LoginUserManager.dll
+C:\CodeRepos\HH\LoginUserManager\bin\Debug\netcoreapp3.1\LoginUserManager.pdb
+C:\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.csprojAssemblyReference.cache
+C:\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.AssemblyInfoInputs.cache
+C:\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.AssemblyInfo.cs
+C:\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.csproj.CoreCompileInputs.cache
+C:\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.dll
+C:\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.pdb
+C:\Fei Data\CodeRepos\HH\LoginUserManager\obj\Debug\netcoreapp3.1\LoginUserManager.csprojAssemblyReference.cache

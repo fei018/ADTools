@@ -1,0 +1,40 @@
+﻿@model ADManageIndexViewModel
+@{    
+
+}
+
+<fieldset class="layui-elem-field layui-field-title">
+    <legend>Domain Info</legend>
+</fieldset>
+<div class="layui-row">  
+    <div class="layui-col-md6 layui-col-md-offset3">
+        <table class="layui-table" lay-size="lg">
+            <tbody>
+                <tr>
+                    <td>Domain Name</td>
+                    <td>@Model?.DomainName</td>
+                </tr>
+                <tr>
+                    <td>Connected Server</td>
+                    <td>@Model?.ConnectServer</td>
+                </tr>
+                <tr>
+                    <td>Login Name</td>
+                    <td>@Model?.LoginName</td>
+                </tr>
+                <tr>
+                    <td>User Count</td>
+                    <td>@Model?.ADUserCount</td>
+                </tr>
+                <tr>
+                    <td>Group Count</td>
+                    <td>@Model?.ADGroupCount</td>
+                </tr>
+                <tr>
+                    <td>Computer Count</td>
+                    <td>@Model?.ADComputerCount</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
