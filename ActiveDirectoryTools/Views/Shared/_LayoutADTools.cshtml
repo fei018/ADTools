@@ -1,11 +1,10 @@
 ﻿@inject IADToolsService _adToolsService
 @{
-    var _adSerivce = _adToolsService.ADService;
-    var query = await _adSerivce.GetDomainInfoInDatabase();
     string _domainInfo = null;
-    if (query.Success)
+    var identity = User?.Identity as ClaimsIdentity;
+    if (identity != null)
     {
-        _domainInfo = query.Value.DomainName;
+        _domainInfo = identity.FindFirst(nameof(DomainInfo.DomainName)).Value;
     }
 }
 
@@ -67,7 +66,7 @@
                 <ul class="layui-nav layui-nav-tree layui-bg-cyan">
                     <li class="layui-nav-item">
                         <a href="/admanage/index">
-                            <i class="layui-icon">&#xe68e;</i> @_domainInfo
+                            <i class="layui-icon">&#xe68e;</i> @(_domainInfo??"Domain ?")
                         </a>
                     </li>
                     <li class="layui-nav-item">
@@ -119,12 +118,12 @@
         <div class="site-mobile-shade"></div>
 
         <!-- ajax loading-->
-        <div class="ajax_loading" style="display:none">
+        @*<div class="ajax_loading" style="display:none">
             <div class="loading_show">
                 <img src="~/adtools/images/loading.gif" />
                 <p class="loading_context">Loading。。。</p>
             </div>
-        </div>
+        </div>*@
     </div>
 
     <script src="~/layui/layui.all.js" charset="utf-8"></script>

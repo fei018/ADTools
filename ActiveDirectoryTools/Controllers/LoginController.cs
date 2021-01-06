@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ServiceCenter;
 using System.Threading.Tasks;
+using ActiveDirectoryTools.Models;
+using Microsoft.Extensions.Configuration;
+using System;
 
 namespace ActiveDirectoryTools.Controllers
 {
@@ -12,25 +15,36 @@ namespace ActiveDirectoryTools.Controllers
     {
         private readonly IADService _adService;
 
-        public LoginController(IADToolsService toolsService)
+        private readonly IConfiguration _configuration;
+
+        public LoginController(IADToolsService toolsService, IConfiguration configuration)
         {
             _adService = toolsService.ADService;
+            _configuration = configuration;
         }
 
         [AllowAnonymous]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            try
+            {
+                var vm = await new LoginViewModel().GetDomainInfoList(_configuration);
+                return View(vm);
+            }
+            catch (Exception ex)
+            {
+                ViewData["LoginError"] = ex.Message;
+                return View();
+            }
         }
 
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         [HttpPost]       
-        public async Task<IActionResult> DoLogin(string username, string password)
+        public async Task<IActionResult> DoLogin(string username, string password, string domainName)
         {
-            ViewData["LoginError"] = null;
-
-            var query = await _adService.Login(loginName: username, password);
+            var info = await new LoginViewModel().GetSelectedDomainInfo(domainName, _configuration);
+            var query = await _adService.Login(info, username, password);
             if (query.Success)
             {
                 return RedirectToAction("Index", "ADManage");
@@ -38,7 +52,8 @@ namespace ActiveDirectoryTools.Controllers
             else
             {
                 ViewData["LoginError"] = query.Error;
-                return View("Index");
+                var vm = await new LoginViewModel().GetDomainInfoList(_configuration);
+                return View("Index", vm);
             }
         }
 

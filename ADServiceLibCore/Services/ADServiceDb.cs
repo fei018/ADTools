@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ADServiceLibCore.Models;
+﻿using ADServiceLibCore.Models;
 using Microsoft.AspNetCore.Http;
 using SqlSugar;
 

@@ -1,6 +1,4 @@
 ﻿using ADServiceLibCore.Models;
-using ADServiceLibCore.Services;
-using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -8,7 +6,7 @@ namespace ADServiceLibCore
 {
     public interface IADService
     {
-        Task<IADResult<DomainInfo>> Login(string loginName, string password);
+        Task<IADResult<DomainInfo>> Login(DomainInfo domain, string loginName, string password);
 
         Task Logout();
 
@@ -57,8 +55,8 @@ namespace ADServiceLibCore
         IADResult<ADComputer> UnlockComputer(string name);
 
         // DomainInfo
-        Task<IADResult<DomainInfo>> SetDomainInfoToDatabase(DomainInfo info);
+        //Task<IADResult<DomainInfo>> SetDomainInfoToDatabase(DomainInfo info);
 
-        Task<IADResult<DomainInfo>> GetDomainInfoInDatabase();
+        //Task<IADResult<DomainInfo>> GetDomainInfoInDatabase();
     }
 }

@@ -29,7 +29,7 @@ namespace ADServiceLibCore.Services
 
             try
             {
-                var add = DomainInfoStaticDb.AddOrUpdate(domain.AdminName, domain, (key, oldvalue) => domain);
+                var add = DomainInfoStaticDb.AddOrUpdate(domain.DomainStaticKey, domain, (key, oldvalue) => domain);
             }
             catch (Exception)
             {
@@ -37,17 +37,19 @@ namespace ADServiceLibCore.Services
             }
         }
 
-        public IADResult<DomainInfo> GetLoginDomainInfo(string loginName)
+        public IADResult<DomainInfo> GetLoginDomainInfo(HttpContext httpContext)
         {
             var result = new ADResult<DomainInfo>();
-            var get = DomainInfoStaticDb.TryGetValue(loginName, out DomainInfo info);
+            var identity = httpContext.User.Identity as ClaimsIdentity;
+            var key = identity.FindFirst(nameof(DomainInfo.DomainStaticKey)).Value;
+            var get = DomainInfoStaticDb.TryGetValue(key, out DomainInfo info);
             if (get)
             {
                 return result.ToReturn(get, info);
             }
             else
             {
-                return result.ToReturn(loginName + " try to get DomainInfo in DomainInfoStaticDb return false.");
+                return result.ToReturn(key + " try to get DomainInfo in DomainInfoStaticDb return false.");
             }
         }
 
@@ -57,8 +59,9 @@ namespace ADServiceLibCore.Services
             try
             {
                 var claimIndentity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
-                claimIndentity.AddClaim(new Claim(ClaimTypes.Name, domain.AdminName));
-                claimIndentity.AddClaim(new Claim(nameof(domain.DomainName), domain.DomainName));
+                claimIndentity.AddClaim(new Claim(nameof(DomainInfo.AdminName), domain.AdminName));
+                claimIndentity.AddClaim(new Claim(nameof(DomainInfo.DomainName), domain.DomainName));
+                claimIndentity.AddClaim(new Claim(nameof(DomainInfo.DomainStaticKey), domain.DomainStaticKey));
 
                 var principal = new ClaimsPrincipal(claimIndentity);
 

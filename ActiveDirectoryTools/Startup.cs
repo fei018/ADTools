@@ -53,7 +53,7 @@ namespace ActiveDirectoryTools
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=admanage}/{action=Index}/{id?}");
+                    pattern: "{controller=Login}/{action=Index}/{id?}");
             });
         }
 

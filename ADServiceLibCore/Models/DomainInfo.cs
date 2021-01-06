@@ -28,5 +28,8 @@ namespace ADServiceLibCore.Models
 
         [SugarColumn(IsIgnore = true)]
         public string ConnectedServer { get; set; }
+
+        [SugarColumn(IsIgnore = true)]
+        public string DomainStaticKey => DomainName + ":" + AdminName;
     }
 }

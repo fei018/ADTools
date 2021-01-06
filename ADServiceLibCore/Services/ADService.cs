@@ -4,8 +4,6 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.DirectoryServices.AccountManagement;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ADServiceLibCore.Services
@@ -34,18 +32,18 @@ namespace ADServiceLibCore.Services
             }
         }
 
-        public async Task<IADResult<DomainInfo>> Login(string loginName, string password)
+        public async Task<IADResult<DomainInfo>> Login(DomainInfo domain, string loginName, string password)
         {
             var result = new ADResult<DomainInfo>();
-            var query = await GetDomainInfoInDatabase();
+            //var query = await GetDomainInfoInDatabase();
             try
             {
-                if (!query.Success)
-                {
-                    return result.ToReturn(query.Error);
-                }
+                //if (!query.Success)
+                //{
+                //    return result.ToReturn(query.Error);
+                //}
+                //var domain = query.Value;
 
-                var domain = query.Value;
                 domain.AdminName = loginName;
                 domain.AdminPassword = password;
 
@@ -74,13 +72,13 @@ namespace ADServiceLibCore.Services
         public IADResult<DomainInfo> GetLoginDomainInfoUseHttpContext()
         {
             var result = new ADResult<DomainInfo>();
-            var name = _httpContext?.User?.Identity?.Name;
-            if (string.IsNullOrWhiteSpace(name))
+            var identity = _httpContext?.User?.Identity;
+            if (identity == null)
             {
-                return result.ToReturn("HttpContext.User.Name is Null");
+                return result.ToReturn("HttpContext.User.Identity is Null");
             }
 
-            var query = new ADLoginHelper().GetLoginDomainInfo(name);
+            var query = new ADLoginHelper().GetLoginDomainInfo(_httpContext);
             if (query.Success)
             {
                 return result.ToReturn(query.Value);
@@ -211,7 +209,7 @@ namespace ADServiceLibCore.Services
                 return new ADResult<string>().ToReturn(context.Error);
             }
 
-            return new ADUserHelper().AddUserToGroup(context.Value, userSamAccount,addGroups);
+            return new ADUserHelper().AddUserToGroup(context.Value, userSamAccount, addGroups);
         }
         #endregion
 
@@ -259,7 +257,7 @@ namespace ADServiceLibCore.Services
                 return new ADResult<ADComputer>().ToReturn(context.Error);
             }
 
-            return new ADComputerHelper().FindComputer(context.Value,name);
+            return new ADComputerHelper().FindComputer(context.Value, name);
         }
 
         public IADResult<ADComputer> DeleteComputer(string name)
@@ -308,15 +306,16 @@ namespace ADServiceLibCore.Services
         #endregion
 
         #region DomainInfo Control
-        public async Task<IADResult<DomainInfo>> SetDomainInfoToDatabase(DomainInfo info)
-        {
-            return await new ADDmainInfoHelper().SetDomainInfoToDatabase(_db, info);
-        }
+        //public async Task<IADResult<DomainInfo>> SetDomainInfoToDatabase(DomainInfo info)
+        //{
+        //    return await new ADDmainInfoHelper().SetDomainInfoToDatabase(_db, info);
+        //}
 
-        public async Task<IADResult<DomainInfo>> GetDomainInfoInDatabase()
-        {
-            return await new ADDmainInfoHelper().GetDomainInfo(_db);
-        }
+        // 改為用 appsettings.json 獲取
+        //public async Task<IADResult<DomainInfo>> GetDomainInfoInDatabase()
+        //{
+        //    return await new ADDmainInfoHelper().GetDomainInfo(_db);
+        //}
         #endregion
 
     }

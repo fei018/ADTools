@@ -14,5 +14,5 @@ C:\CodeRepos\HH\ADServiceLibCore\obj\Debug\netcoreapp3.1\ADServiceLibCore.Assemb
 C:\CodeRepos\HH\ADServiceLibCore\obj\Debug\netcoreapp3.1\ADServiceLibCore.csproj.CoreCompileInputs.cache
 C:\CodeRepos\HH\ADServiceLibCore\obj\Debug\netcoreapp3.1\ADServiceLibCore.dll
 C:\CodeRepos\HH\ADServiceLibCore\obj\Debug\netcoreapp3.1\ADServiceLibCore.pdb
-C:\CodeRepos\HH\ADServiceLibCore\obj\Debug\netcoreapp3.1\ADServiceLibCore.csprojAssemblyReference.cache
 C:\Fei Data\CodeRepos\HH\ADServiceLibCore\obj\Debug\netcoreapp3.1\ADServiceLibCore.csprojAssemblyReference.cache
+C:\CodeRepos\HH\ADServiceLibCore\obj\Debug\netcoreapp3.1\ADServiceLibCore.csprojAssemblyReference.cache
