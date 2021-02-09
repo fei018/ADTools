@@ -1,0 +1,69 @@
+﻿@model IADResult<ADUser>
+@{
+    Layout = null;
+    var _user = Model.Value;
+}
+
+<div>
+    @if (Model.Success)
+    {
+        <table id="table1" class="display cell-border compact dt-body-center" style="width:100%">
+            <thead>
+                <tr>
+                    <th>SamAccount</th>
+                    <th>Name</th>
+                    <th>DisplayName</th>
+                    <th>UPN</th>
+                    <th>Description</th>
+                    <th>LoginScript</th>
+                    <th>LockedOut</th>
+                    <th>Enabled</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@_user.SamAccountName</td>
+                    <td>@_user.Name</td>
+                    <td>@_user.DisplayName</td>
+                    <td>@_user.UserPrincipalName</td>
+                    <td>@_user.Description</td>
+                    <td><a href="javascript:;" onclick="ADUserSetScriptPath('@_user.SamAccountName')">@_user.ScriptPath</a></td>
+                    <td>
+                        @if (_user.LockedOut)
+                        {
+                            <a href="javascript:;" onclick="ADUserUnlock('@_user.SamAccountName')">@_user.LockedOut</a>
+                        }
+                        else
+                        {
+                            @_user.LockedOut
+                        }
+                    </td>
+                    <td><a href="javascript:;" onclick="ADUserEnableOrDisable('@_user.SamAccountName')">@_user.Enabled</a></td>
+                    <td>
+                        <div>
+                            <!-- ADUser Action -->
+                            <a href="javascript:;" onclick="ADUserResetPassword('@_user.SamAccountName')">Password</a>
+                            <a href="/admanage/aduseraddgroup?usersamaccount=@_user.SamAccountName" onclick="LayerLoad()">Groups</a>
+                            <a href="javascript:;" onclick="ADUserDelete('@_user.SamAccountName')" style="color:red">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>@Model.Error</p>
+    }
+</div>
+@Html.AntiForgeryToken()
+
+<script type="text/javascript">
+    $('#table1').DataTable({
+        scrollY: '60vh',
+        scrollCollapse: true,
+        scrollX: true,
+        paging: false
+    });
+</script>

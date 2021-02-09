@@ -1,0 +1,47 @@
+﻿@model List<ADUserAddGroupsViewModel>
+@{
+
+}
+
+<div class="layui-row">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>Add Group</legend>
+    </fieldset>
+    @if (ViewData["ADUserAddGroup"] != null)
+    {
+        <div>
+            <p style="color:red">@ViewData["ADUserAddGroup"]</p>
+        </div>
+    }
+    <form class="layui-form" action="/admanage/aduseraddgroup" method="post">
+        <div class="layui-form-item">
+            <label class="layui-form-label">@Model?.First()?.UserSamAccount</label>
+        </div>
+        <div class="layui-form-item">
+            @if (Model.Any())
+            {
+                foreach (var g in Model)
+                {
+                    <div class="layui-input-block">
+                        <input type="checkbox" checked="@g.IsCheck" name="AddGroup" lay-skin="primary" title="@g.GroupName" value="@g.GroupName">
+                    </div>
+                }
+            }
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button type="submit" class="layui-btn" lay-submit>Submit</button>
+            </div>
+        </div>
+        <input type="hidden" name="userSamAccount" value="@Model?.First()?.UserSamAccount" />
+        @Html.AntiForgeryToken()
+    </form>
+</div>
+
+@section Scripts{
+    <script type="text/javascript">
+        SidebarItemed('/aduser/aduserindex');
+    </script>
+}
+

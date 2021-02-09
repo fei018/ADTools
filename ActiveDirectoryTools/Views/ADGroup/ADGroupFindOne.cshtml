@@ -1,0 +1,42 @@
+﻿@model IADResult<ADGroup>
+@{
+    Layout = null;
+    var _group = Model.Value;
+}
+
+<div>
+    @if (Model.Success)
+    {
+        <table id="table1" class="display cell-border compact dt-body-center" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>SamAccount</th>
+                    <th>Description</th>
+                    <th>DistinguishedName</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@_group.Name</td>
+                    <td>@_group.SamAccountName</td>
+                    <td>@_group.Description</td>
+                    <td>@_group.DistinguishedName</td>
+                </tr>
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>@Model.Error</p>
+    }
+</div>
+
+<script type="text/javascript">
+    $('#table1').DataTable({
+        scrollY: '60vh',
+        scrollCollapse: true,
+        scrollX: true,
+        paging: false
+    });
+</script>

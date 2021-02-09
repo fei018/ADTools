@@ -62,7 +62,7 @@ function ADUserFindOne() {
     var name = $('#samAccount').val();
     $('#divTools').html('');
     $.ajax({
-        url: "/admanage/aduserfindone",
+        url: "/aduser/aduserfindone",
         type: "post",
         data: { samAccount: name, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
         dataType: "html",
@@ -75,7 +75,7 @@ function ADUserFindOne() {
 function ADUserFindAll() {
     $('#divTools').html('');
     $.ajax({
-        url: "/admanage/aduserfindall",
+        url: "/aduser/aduserfindall",
         type: "post",
         data: { __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
         dataType: "html",
@@ -90,7 +90,7 @@ function ADUserUnlock(sam) {
         btn: ['Yes', 'Cancel'],
         btn1: function (index) {
             $.ajax({
-                url: "/admanage/ADUserUnlock",
+                url: "/aduser/ADUserUnlock",
                 type: "post",
                 data: { samAccount: sam, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
                 dataType: "text",
@@ -111,7 +111,7 @@ function ADUserEnableOrDisable(sam) {
         btn: ['Enable', 'Disable', 'Cancel'],
         btn1: function (index) {
             $.ajax({
-                url: "/admanage/ADUserEnable",
+                url: "/aduser/ADUserEnable",
                 type: "post",
                 data: { samAccount: sam, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
                 dataType: "text",
@@ -123,7 +123,7 @@ function ADUserEnableOrDisable(sam) {
         },
         btn2: function (index) {
             $.ajax({
-                url: "/admanage/ADUserDisable",
+                url: "/aduser/ADUserDisable",
                 type: "post",
                 data: { samAccount: sam, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
                 dataType: "text",
@@ -148,7 +148,7 @@ function ADUserResetPassword(sam) {
     }, function (value, index, elem) {
 
         $.ajax({
-            url: "/admanage/ADUserResetPassword",
+            url: "/aduser/ADUserResetPassword",
             type: "post",
             data: { samAccount: sam, newPassword: value, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
             dataType: "text",
@@ -170,7 +170,7 @@ function ADUserSetScriptPath(sam) {
     }, function (value, index, elem) {
 
         $.ajax({
-            url: "/admanage/ADUserSetScriptPath",
+            url: "/aduser/ADUserSetScriptPath",
             type: "post",
             data: { samAccount: sam, scriptPath: value, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
             dataType: "text",
@@ -188,7 +188,7 @@ function ADUserDelete(sam) {
         btn: ['Yes', 'Cancel'],
         btn1: function (index) {
             $.ajax({
-                url: "/admanage/ADUserDelete",
+                url: "/aduser/ADUserDelete",
                 type: "post",
                 data: { samAccount: sam, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
                 dataType: "text",
@@ -209,7 +209,7 @@ function ADGroupFindOne() {
     var name = $('#groupName').val();
     $('#divTools').html('');
     $.ajax({
-        url: "/admanage/adgroupfindone",
+        url: "/adgroup/adgroupfindone",
         type: "post",
         data: { groupName: name, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
         dataType: "html",
@@ -222,7 +222,7 @@ function ADGroupFindOne() {
 function ADGroupFindAll() {
     $('#divTools').html('');
     $.ajax({
-        url: "/admanage/adgroupfindall",
+        url: "/adgroup/adgroupfindall",
         type: "post",
         data: { __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
         dataType: "html",
@@ -236,7 +236,7 @@ function ADGroupFindAll() {
 function ADComputerFindAll() {
     $('#divTools').html('');
     $.ajax({
-        url: "/admanage/ADComputerFindAll",
+        url: "/adcomputer/ADComputerFindAll",
         type: "post",
         data: { __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
         dataType: "html",
@@ -250,7 +250,7 @@ function ADComputerFindOne() {
     var name = $('#computerName').val();
     $('#divTools').html('');
     $.ajax({
-        url: "/admanage/ADComputerFindOne",
+        url: "/adcomputer/ADComputerFindOne",
         type: "post",
         data: { name: name, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
         dataType: "html",
@@ -265,7 +265,7 @@ function ADComputerDelete(name) {
         btn: ['Yes', 'Cancel'],
         btn1: function (index) {
             $.ajax({
-                url: "/admanage/ADComputerDelete",
+                url: "/adcomputer/ADComputerDelete",
                 type: "post",
                 data: { name: name, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
                 dataType: "text",
@@ -286,7 +286,7 @@ function ADComputerEnableOrDisable(name) {
         btn: ['Enable', 'Disable', 'Cancel'],
         btn1: function (index) {
             $.ajax({
-                url: "/admanage/ADComputerEnable",
+                url: "/adcomputer/ADComputerEnable",
                 type: "post",
                 data: { name: name, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
                 dataType: "text",
@@ -298,7 +298,7 @@ function ADComputerEnableOrDisable(name) {
         },
         btn2: function (index) {
             $.ajax({
-                url: "/admanage/ADComputerDisable",
+                url: "/adcomputer/ADComputerDisable",
                 type: "post",
                 data: { name: name, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
                 dataType: "text",
@@ -319,7 +319,7 @@ function ADComputerUnlock(name) {
         btn: ['Yes', 'Cancel'],
         btn1: function (index) {
             $.ajax({
-                url: "/admanage/ADComputerUnlock",
+                url: "/adcomputer/ADComputerUnlock",
                 type: "post",
                 data: { name: name, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
                 dataType: "text",

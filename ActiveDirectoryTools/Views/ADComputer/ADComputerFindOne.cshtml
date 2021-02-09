@@ -1,0 +1,59 @@
+﻿@model IADResult<ADComputer>
+@{
+    Layout = null;
+    var _computer = Model.Value;
+}
+
+<div>
+    @if (Model.Success)
+    {
+        <table id="table1" class="display cell-border compact dt-body-center" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Name</th>                   
+                    <th>Description</th>
+                    <th>LockedOut</th>
+                    <th>Enabled</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@_computer.Name</td>
+                    <td>@_computer.Description</td>
+                    <td>
+                        @if (_computer.LockedOut)
+                        {
+                            <a href="javascript:;" onclick="ADComputerUnlock('@_computer.Name')">@_computer.LockedOut</a>
+                        }
+                        else
+                        {
+                            @_computer.LockedOut
+                        }
+                    </td>
+                    <td><a href="javascript:;" onclick="ADComputerEnableOrDisable('@_computer.Name')">@_computer.Enabled</a></td>
+                    <td>
+                        <div>
+                            <!-- Action -->
+                            <a href="javascript:;" onclick="ADComputerDelete('@_computer.Name')" style="color:red">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>@Model.Error</p>
+    }
+</div>
+@Html.AntiForgeryToken()
+
+<script type="text/javascript">
+    $('#table1').DataTable({
+        scrollY: '60vh',
+        scrollCollapse: true,
+        scrollX: true,
+        paging: false
+    });
+</script>

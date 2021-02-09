@@ -1,9 +1,0 @@
-C:\CodeRepos\HH\ADServiceLibCore\bin\Release\netcoreapp3.1\ADServiceLibCore.deps.json
-C:\CodeRepos\HH\ADServiceLibCore\bin\Release\netcoreapp3.1\ADServiceLibCore.dll
-C:\CodeRepos\HH\ADServiceLibCore\bin\Release\netcoreapp3.1\ADServiceLibCore.pdb
-C:\CodeRepos\HH\ADServiceLibCore\obj\Release\netcoreapp3.1\ADServiceLibCore.csprojAssemblyReference.cache
-C:\CodeRepos\HH\ADServiceLibCore\obj\Release\netcoreapp3.1\ADServiceLibCore.AssemblyInfoInputs.cache
-C:\CodeRepos\HH\ADServiceLibCore\obj\Release\netcoreapp3.1\ADServiceLibCore.AssemblyInfo.cs
-C:\CodeRepos\HH\ADServiceLibCore\obj\Release\netcoreapp3.1\ADServiceLibCore.csproj.CoreCompileInputs.cache
-C:\CodeRepos\HH\ADServiceLibCore\obj\Release\netcoreapp3.1\ADServiceLibCore.dll
-C:\CodeRepos\HH\ADServiceLibCore\obj\Release\netcoreapp3.1\ADServiceLibCore.pdb

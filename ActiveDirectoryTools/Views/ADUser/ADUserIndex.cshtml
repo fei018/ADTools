@@ -1,0 +1,33 @@
+﻿<div class="layui-row">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>AD User</legend>
+    </fieldset>
+    <div class="layui-form-item">
+        <div class="layui-input-inline">
+            <input type="text" class="layui-input" id="samAccount" name="samAccount" placeholder="UserName('CKK01')" />
+        </div>
+        <div class="layui-input-inline" style="width:100px;">
+            <button class="layui-btn layui-btn-primary" onclick="ADUserFindOne()"><i class="layui-icon layui-icon-search"></i></button>
+        </div>
+        <div class="layui-input-inline">
+            <button type="button" class="layui-btn layui-btn-primary" onclick="ADUserFindAll()">All User</button>
+        </div>
+        <div class="layui-input-inline">
+            <a class="layui-btn layui-btn-primary" href="/aduser/adusercreate">Create User</a>
+        </div>
+    </div>
+</div>
+<hr />
+<div class="layui-row" id="divTools"></div>
+
+@Html.AntiForgeryToken()
+
+@section Scripts{
+    <script type="text/javascript">
+        $('#samAccount').on('keypress', function (e) {
+            if (e.which == 13) {
+                ADUserFindOne();
+            }
+        })
+    </script>
+}

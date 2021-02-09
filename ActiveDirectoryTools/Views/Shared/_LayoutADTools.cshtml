@@ -1,10 +1,11 @@
-﻿@inject IADToolsService _adToolsService
-@{
+﻿@{
     string _domainInfo = null;
+    string _loginName = null;
     var identity = User?.Identity as ClaimsIdentity;
     if (identity != null)
     {
         _domainInfo = identity.FindFirst(nameof(DomainInfo.DomainName)).Value;
+        _loginName = identity.FindFirst(nameof(DomainInfo.AdminName)).Value;
     }
 }
 
@@ -50,7 +51,7 @@
                 <li class="layui-nav-item">
                     <a href="javascript:;">
                         <img src="~/adtools/images/bg.png" class="layui-nav-img">
-                        @(User?.Identity?.Name)
+                        @(_loginName??"User")
                     </a>
                     <dl class="layui-nav-child">
                         @*<dd><a href="">Profile</a></dd>*@
@@ -73,17 +74,17 @@
                         <a href="javascript:;"><i class="layui-icon">&#xe67f;</i> Active Directory</a>
                         <dl class="layui-nav-child">
                             <dd>
-                                <a class="ad-nav-link" href="/admanage/aduserindex">
+                                <a class="ad-nav-link" href="/aduser/aduserindex">
                                     <i class="layui-icon">&#xe66f;</i> AD User
                                 </a>
                             </dd>
                             <dd>
-                                <a class="ad-nav-link" href="/admanage/adgroupindex">
+                                <a class="ad-nav-link" href="/adgroup/adgroupindex">
                                     <i class="layui-icon">&#xe770;</i> AD Group
                                 </a>
                             </dd>
                             <dd>
-                                <a class="ad-nav-link" href="/admanage/adcomputerindex">
+                                <a class="ad-nav-link" href="/adcomputer/adcomputerindex">
                                     <i class="layui-icon">&#xe638;</i> AD Computer
                                 </a>
                             </dd>
